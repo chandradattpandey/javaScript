@@ -61,5 +61,5 @@ if(days <= 7){
 }else if((days >=8) && (days <= 15)){
     console.log('it is a Fortnight');
 }else{
-    console.log('it is a month');
+    console.log('it is a month !!!!!!');
 }
