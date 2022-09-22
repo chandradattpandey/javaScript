@@ -51,3 +51,19 @@ function say(user){
 
 
 say(user('gokul'));
+
+
+// diff between function and arrow function
+
+let me = {
+    name: "javaScript",
+    myfunc: () => {
+        console.log("My name is " + this.name); // no 'this' binding here
+        console.log("My name is " + me.name);
+    },
+    myfunc1() {
+        console.log("My name is " + this.name); // 'this' binding works here 
+    }
+};
+me.myfunc();
+me.myfunc1();
